@@ -8,3 +8,13 @@ C:\Users\user\Desktop\Generator\Generator\obj\Debug\Generator.csproj.GenerateRes
 C:\Users\user\Desktop\Generator\Generator\obj\Debug\Generator.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\Generator\Generator\obj\Debug\Generator.exe
 C:\Users\user\Desktop\Generator\Generator\obj\Debug\Generator.pdb
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\bin\Debug\Generator.exe.config
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\bin\Debug\Generator.exe
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\bin\Debug\Generator.pdb
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.Form1.resources
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.Properties.Resources.resources
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.csproj.GenerateResource.cache
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.exe
+C:\Users\user\Desktop\GeneratorPseudo\GeneratorLiczbPseudolosowych\Generator\obj\Debug\Generator.pdb
