@@ -14,7 +14,7 @@ namespace Generator
     {
         private const int k = 10;
         private const int j = 7;
-        private const int m = 32000;
+        private const int m = 100;
         private const int a = 5184;
        
 

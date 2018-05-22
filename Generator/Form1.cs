@@ -49,8 +49,8 @@ namespace Generator
             n = int.Parse(textBox2.Text);
 
             Generator.Init(seed);
-
-            FileStream fileStream = new FileStream("Plik3.txt", FileMode.OpenOrCreate, FileAccess.Write);
+            File.WriteAllText("Plik5.txt", string.Empty);
+            FileStream fileStream = new FileStream("Plik5.txt", FileMode.OpenOrCreate, FileAccess.Write);
             StreamWriter streamWriter = new StreamWriter(fileStream);
 
             for(int i=0; i<n; i++)
@@ -74,27 +74,42 @@ namespace Generator
 
         private void button2_Click(object sender, EventArgs e)
         {
-            FileStream fileStream = new FileStream("Plik3.txt", FileMode.OpenOrCreate, FileAccess.Read);
-            StreamReader streamReader = new StreamReader(fileStream);
-            // Set title.
+            int i, j;
+          
+ 
             this.chart1.Titles.Add("Wykres emipiryczny");
+  
 
-            string line;
-            // Read the file and display it line by line.
-            while ((line = streamReader.ReadLine()) != null)
+
+            string[] path = File.ReadAllLines(@"Plik5.txt");
+
+
+            string[] tab = new string[path.Length];
+            string[] tab2 = new string[path.Length];
+            int licznik = 1; 
+
+            for (i = 0; i < path.Length; i++)
             {
-                int i = 1;
-                i++;
-                // richTextBox1.Text += "\n" + line;
-                chart1.Series["Series1"].Points.AddXY(streamReader.ReadLine(), i);
+
+                for (j = 1; j < path.Length; j++)
+                {
+
+                    if (path[i] == path[j])
+                    {
+                        
+                        licznik++;
+                    }
+                 
+                }   
+                    int x = int.Parse(path[i]);
+                    chart1.Series["Series1"].Points.AddXY(x, licznik);
+                licznik = 0;
+                
 
             }
-            streamReader.Close();
 
-          
 
-                    
-        
+
         }
     }
 }
